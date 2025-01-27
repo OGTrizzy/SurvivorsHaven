@@ -3,55 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Survivors Haven</title>
+    <title>Survivors Haven - SH</title>
     <link
       rel="icon"
       href="./crypto/img/survivorshaven.jpg"
       type="image/x-icon"
     />
     <link href="stylesheet.css" rel="stylesheet" />
+    <script src="./js/tokenomics.js" defer></script>
   </head>
   <body>
     <header>
-      <h1>Survivors Haven</h1>
-      <p>Survive, Thrive, and Rise. Join the memecoin revolution.</p>
-      <div class="buttons">
-        <a href="https://t.me/SurvivorsHaven" target="_blank">Join Telegram</a>
-        <a href="https://x.com/SurvivorsOnSol" target="_blank"
-          >Follow on Twitter</a
-        >
-        <a
-          href="https://dexscreener.com/solana/gzowf32zjf22bh3j8rkckv6q7fgwxlapacjqyqhhmoon"
-          target="_blank"
-          >View on Dex Screener</a
-        >
-        <a
-          href="https://solscan.io/token/GzowF32zJf22bh3J8Rkckv6Q7FGWXLAPAcjqyQHHmoon"
-          target="_blank"
-          >View on Solscan</a
-        >
+      <div class="logo">
+        <a href="index.html">
+          <img
+            class="logo-img"
+            src="./crypto/img/survivorshaven.jpg"
+            alt="Survivors Haven Logo"
+          />
+        </a>
+      </div>
+      <div class="header-text">
+        <h1>Survive. Thrive. Rise.</h1>
+        <p>
+          Join the Crypto Revolution with SH - Built for the people, by the
+          people.
+        </p>
+
+        <div class="header-links">
+
+            <div class="cta">
+                <a
+                  href="https://solscan.io/token/GzowF32zJf22bh3J8Rkckv6Q7FGWXLAPAcjqyQHHmoon#transactions"
+                  target="_blank"
+                  class="cta-button"
+                  >Solscan</a
+                >
+              </div>
+
+              <div class="cta">
+                <a
+                  href="https://dexscreener.com/solana/gzowf32zjf22bh3j8rkckv6q7fgwxlapacjqyqhhmoon"
+                  target="_blank"
+                  class="cta-button"
+                  >Buy SH Now</a
+                >
+              </div>
+
+              <div class="cta">
+                <a
+                  href="https://t.me/SurvivorsHaven"
+                  target="_blank"
+                  class="cta-button"
+                  >Join Telegram</a
+                >
+              </div>
+
+              <div class="cta">
+                <a
+                  href="https://x.com/SurvivorsOnSol"
+                  target="_blank"
+                  class="cta-button"
+                  >Join X</a
+                >
+              </div>
+
+        </div>    
       </div>
     </header>
 
-    <section>
-      <h2>About Survivors Haven</h2>
-      <p>
-        Survivors Haven is a community-driven meme coin bringing crypto
-        enthusiasts together. Invest, connect, and grow with our project.
-      </p>
-    </section>
+    <section id="market-metrics">
+        <h2>Market Metrics</h2>
+        <div id="metrics">
+          <div id="tokenomics-data">
+            <p id="price">Loading Price...</p>
+            <p id="volume24h">Loading 24h Volume...</p>
+            <p id="priceChange24h">Loading 24h Price Change...</p>
+            <p id="marketCap">Loading Market Cap...</p>
+          </div>
+      </section>
+
+    <div class="hero-image">
+      <img src="./crypto/img/survivors.jpg" alt="SH Hero Image" />
+    </div>
 
     <section>
-      <h2>Roadmap</h2>
-      <div class="roadmap">
-        <p><strong>Phase 1:</strong> Token Launch & Community Building</p>
-        <p><strong>Phase 2:</strong> Listings on CoinGecko and CoinMarketCap</p>
-        <p><strong>Phase 3:</strong> Merch Store Launch & NFT Integration</p>
-      </div>
+        <h3>
+            A community coin for investors who dreamt big but got scammed or rugged. <br>
+            For the Survivors. By the Survivors. <br>
+            Buy #SurvivorsHaven on Solana - together we rise!
+        </h3>
     </section>
+
+    <section id="why-sh">
+      <h2>Why SH?</h2>
+      <ul>
+        <li>Fair Launch</li>
+        <li>No pre-sale, no insiders, max 1B supply</li>
+        <li>Ownership renounced, immutable</li>
+        <li>Buy and sell at any time</li>
+        <li>All liquidity is locked forever</li>
+        <li>Deflationary tokenomics rewarding long-term holders.</li>
+      </ul>
+    </section><br>
 
     <footer>
-      <p>&copy; 2025 Survivors Haven</p>
+      <p>
+        &copy; 2025 Survivors Haven | <a href="about.html">About Us</a>
+      </p>
     </footer>
   </body>
 </html>
