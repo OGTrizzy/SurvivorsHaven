@@ -30,9 +30,16 @@ p {
 
 .header-links {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   margin-top: 30px;
+}
+
+.cta {
+  flex: 1 1 200px;
+  display: flex;
+  justify-content: center;
 }
 
 .cta-button {
@@ -45,10 +52,22 @@ p {
   transition: background 0.3s ease;
   min-width: 150px;
   text-align: center;
+  width: 100%;
+  max-width: 200px;
 }
 
 .cta-button:hover {
   background: #26a69a;
+}
+
+@media (max-width: 768px) {
+  .header-links {
+    gap: 15px;
+  }
+
+  .cta {
+    flex: 1 1 calc(50% - 15px);
+  }
 }
 
 footer {
