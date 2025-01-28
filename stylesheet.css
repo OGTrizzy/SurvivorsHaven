@@ -12,14 +12,33 @@ header {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 50px 20px;
-  background: #1f2a38;
+  padding: 0;
+  height: 600px;
+  background: none;
+}
+
+.header-bg {
+  background-image: url("./crypto/img/banner-top.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
   font-size: 3em;
   color: #4fd1c5;
   margin-top: 20px;
+}
+
+.slogan {
+  font-family: "Knewave";
+  color: rgba(212, 191, 150);
 }
 
 p {
@@ -46,7 +65,7 @@ p {
   text-decoration: none;
   padding: 12px 25px;
   border-radius: 8px;
-  background: linear-gradient(135deg, #d4af37, #d17835);
+  background: linear-gradient(135deg, rgba(212, 191, 150), #e4965b);
   color: #2e1d09;
   font-size: 1.2em;
   font-weight: bold;
@@ -106,7 +125,7 @@ footer a:hover {
 }
 
 .logo-img {
-  width: 200px;
+  width: 250px;
   height: auto;
   border-radius: 15px;
 }
