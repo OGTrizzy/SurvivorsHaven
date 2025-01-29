@@ -31,6 +31,14 @@ header {
   box-sizing: border-box;
 }
 
+.bg-w {
+  background-color: #fff;
+}
+
+.ads {
+  min-width: 500px;
+}
+
 h1 {
   font-size: 3em;
   color: #4fd1c5;
